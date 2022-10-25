@@ -29,6 +29,9 @@ header {
     opacity: 0;
     transform: translateY(-100px);
     animation: appear .5s forwards;
+
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .card > img {
@@ -39,6 +42,7 @@ header {
     border: 4px solid #F7DD43;
     margin-top: 115px;
 
+    pointer-events: none;
     user-select: none;
     -webkit-user-select: none;
     -moz-user-select: none;
