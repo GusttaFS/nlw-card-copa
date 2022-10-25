@@ -12,3 +12,9 @@ body {
     background: linear-gradient(150deg, #0F2B05, #000000);
     height: 100vh;
 }
+
+header {
+    text-align: center;
+    padding: 3.75vw;
+    border: 1px solid red;
+}
